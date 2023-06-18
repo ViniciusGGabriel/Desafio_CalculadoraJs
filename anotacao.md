@@ -17,3 +17,5 @@ Essa é a barra de resultado que é feita por um input do typo number é muito m
     }
 
 Para tirar a estilização do código usa esse negocio doido do css que o " input [type="number] seleciona todos inputs com essas características 
+
+Troquei para o P pois fica mais fácil de usar doq input que estava resultando em problemas 
