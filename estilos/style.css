@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+:root {
+    --darkgray: rgb(73, 72, 72);
+    --roxo: rgb(185, 95, 185);
+    --yellow: rgb(167, 175, 89);
+    --white: white;
+    --fonte: 'Lilita One', cursive;
+    --fonte2: 'Geologica', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(105deg, var(--yellow), var(--roxo));
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Geologica', sans-serif;
+    text-align: center;
+    background-color: var(--white);
+    border-radius: 0px 0px 10px 10px;
+}
+
+#calculadora {
+    background-color: var(--darkgray);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#inputCalculadora {
+    background-color: var(--white);
+    width: 225px;
+    height: 5vh;
+    border-radius: 5px;
+    text-align: end;
+    font-size: 30px;
+    font-family: var(--fonte);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+td {
+    padding: 2px;
+    
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: var(--fonte);
+    font-weight: bolder;
+}
+
+#igual {
+    height: 106px;
+}
+
+#zero {
+    width: 163px;
+}
+
+button:hover {
+    background-color: var(--roxo);
+    transition: .3s;
+    transform: scale(105%);
+    cursor: pointer;
+}
