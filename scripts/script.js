@@ -3,7 +3,7 @@ function insert(value) {
    var display = resultado.innerHTML;
    
    // Verificar se o número de caracteres excede o limite desejado
-   if (display.length >= 18) {
+   if (display.length >= 15) {
    return; 
    // Não fazer mais nada se o limite for atingido
    }
